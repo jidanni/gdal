@@ -179,7 +179,7 @@ It works only with raster formats that support update access to existing dataset
 
     .. versionadded:: 2.3
 
-.. option:: -gcp pixel <line> <easting> <northing> [<elevation>]
+.. option:: -gcp <pixel> <line> <easting> <northing> [<elevation>]
 
     Add the indicated ground control point to the dataset.
     This option may be provided multiple times to provide a set of GCPs.
