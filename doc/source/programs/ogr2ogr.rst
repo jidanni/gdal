@@ -391,7 +391,7 @@ output coordinate system or even reprojecting the features during translation.
     mechanism), especially for drivers such as FileGDB that only support
     dataset level transaction in emulation mode.
 
-.. option:: -clipsrc [<xmin> <ymin> <xmax> <ymax>]|WKT|<datasource>|spat_extent
+.. option:: -clipsrc [<xmin> <ymin> <xmax> <ymax>]|<WKT>|<datasource>|spat_extent
 
     Clip geometries (before potential reprojection) to one of the following:
 
