@@ -729,7 +729,7 @@ Examples
 
     .. code-block:: bash
 
-      ogr2ogr -spat -13.931 34.886 46.23 74.12 output.gpkg natural_earth_vector.gpkg
+      ogr2ogr -clipsrc -13.931 34.886 46.23 74.12 output.gpkg natural_earth_vector.gpkg
 
 .. example::
    :title: Filter Features by a ``-where`` clause
